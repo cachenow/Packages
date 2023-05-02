@@ -48,3 +48,7 @@ udpxy.lua替换到feeds/luci/applications/luci-app-udpxy/luasrc/model/cbi
 
 mwan3.po替换到feeds/luci/applications/luci-app-mwan3/po/zh-cn
 
+#### BTW:
+
+想要 Actions 可以正常运行，需要在 Setting→Actions→General→Workflow permissions 内打开 Read and write permissions 和 Allow GitHub Actions to create and approve pull requests.
+
