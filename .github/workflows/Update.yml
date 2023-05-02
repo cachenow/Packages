@@ -120,11 +120,11 @@ jobs:
         cp ./configstore/cloudflared.init.token ./openwrt-cloudflared/cloudflared.init
         
 
-#    - name: Apply
-#      run: |
-#        git add .
-#        git commit -m "Sync: $(date +%Y-%m-%d" "%H:%M)"
-#        git push -f 
+    - name: Apply
+      run: |
+        git add .
+        git commit -m "Sync: $(date +%Y-%m-%d" "%H:%M)"
+        git push -f 
               
 #    - name: Notification
 #      if: cancelled() == false
