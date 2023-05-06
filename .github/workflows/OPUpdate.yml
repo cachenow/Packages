@@ -60,9 +60,9 @@ jobs:
         #rm -rf ./luci-app-cloudflared
         rm -rf ./patch/luci-wall/luci-app-ssr-plus
         rm -rf ./openwrt-cloudflared
-        rm -rf ./luci-app-netspeedtest
+        #rm -rf ./luci-app-netspeedtest
         rm -rf ./netspeedtest
-        rm -rf ./op-homebox
+        #rm -rf ./op-homebox
         
         #git clone --depth 1 --shallow-submodules https://github.com/linkease/openwrt-app-actions ./linkease/openwrt-app-actions
         #git clone https://github.com/grayearth/luci-app-cloudflared ./luci-app-cloudflared
